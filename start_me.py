@@ -22,8 +22,8 @@ d_rate = 0.0001   # Deferral rate.
 i_night = 0.0015   # Overnight interest rate.
 d_night = 0.0015   # Overnight deferral rate
 p_table = np.asarray([[0.95, 0.05, 0.0 ],
-					  [0.5 , 0.45, 0.05],
-					  [0.0 , 0.5 , 0.5 ]])   # Bank-payer in rows.
+		      [0.5 , 0.45, 0.05],
+		      [0.0 , 0.5 , 0.5 ]])   # Bank-payer in rows.
 
 # Main run.
 banks, trace = run_model()
